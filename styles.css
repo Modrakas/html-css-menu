@@ -66,6 +66,18 @@ section.information img {
   border-width: 0;
 }
 
+.custumer-photos-container {
+  height: 138px;
+  width: 615px;
+  display: grid;
+  grid-template-columns: .35fr .5fr .35fr;
+}
+
+.custumer-photos-container img {
+
+  height: 83%;
+}
+
 p {
   padding: 0 1%;
   font-size: 15px;
@@ -97,11 +109,15 @@ section.menu {
   
 }
 
-.contact-container {
-  margin: 70px;
+footer {
+  height: 50px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: start;
 }
 
-a {
+footer a {
   text-decoration: none;
   border: 3px solid rgb(246, 246, 246);
   border-radius: 5px;
