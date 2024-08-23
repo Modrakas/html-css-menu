@@ -97,6 +97,24 @@ section.menu {
   
 }
 
+footer {
+  height: 100px;
+  background-color: transparent;
+  border-top: 3px solid rgb(246, 246, 246);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  text-decoration: none;
+  border: 3px solid rgb(246, 246, 246);
+  border-radius: 5px;
+  padding: 10px;
+  color: rgb(56, 37, 52);
+  background: rgb(246, 246, 246);
+}
+
 @media screen and (max-width: 1150px) {
 
   section {
