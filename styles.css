@@ -97,16 +97,11 @@ section.menu {
   
 }
 
-footer {
-  height: 100px;
-  background-color: transparent;
-  border-top: 3px solid rgb(246, 246, 246);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.contact-container {
+  margin: 70px;
 }
 
-footer a {
+a {
   text-decoration: none;
   border: 3px solid rgb(246, 246, 246);
   border-radius: 5px;
